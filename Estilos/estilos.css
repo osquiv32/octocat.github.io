@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    font-family: 'Bebas Neue', cursive;
+
+}
+
+.contenedor1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 700px;
+}
+header{
+    background-image: url(./1366_2000.jpeg) ;
+    background-repeat: no-repeat;
+    padding: auto;
+    margin: auto;
+    background-size: cover;
+    
+    
+}
+
+.titulo{
+    text-align: center;
+    padding: 60px;
+    z-index: 1000;
+    justify-content: center;
+}
+
+.titulo_section{
+    font-size: 60px;
+    border-style: groove;
+    width: 100%;
+    background-color: red;
+    color: black;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 8px 8px 16px 4px rgba(18, 3, 216, 0.76);
+    text-align:center;
+}
+
+
+nav ul{
+    list-style: none;
+    vertical-align: top;
+    text-align: center;
+}
+
+nav li{
+    list-style-type: none;
+    padding: 0px;
+    display: inline;
+}
+nav li a{
+    font-size: 1em;
+    text-decoration: none;
+    line-height: 70px;
+    padding: 15px 10px;
+}
+
+.div_nav{
+flex-direction: column;
+background-color: black;
+position: fixed;
+width: 100%;
+z-index: 100;
+
+}
+
+.sub{
+    padding-right: 150px;
+    font-size:30px;
+    text-shadow: 3px 3px 2px rgba(152, 150, 207, 0.7);
+}
+
+.primero{
+    background-color: #af1d1d;
+    -webkit-transition: font-size 1s ease;
+    transition: font-size 1s ease;
+    border-radius: 4px 4px 4px 4px;
+    color: black;
+    margin: 15px;
+}
+
+.primero:hover{
+    font-size: 35px;
+    border-radius: 4px 4px 4px 4px;
+    color: black;
+}
+
+.segundo{
+    background-color: #af1d1d;
+    -webkit-transition: font-size 1s ease;
+    transition: font-size 1s ease;
+    border-radius: 4px 4px 4px 4px;
+    color: black;
+    margin: 15px;
+}
+
+.segundo:hover{
+    font-size: 35px;
+    border-radius: 4px 4px 4px 4px;
+    color: black;
+}
+    
+.tercero{
+    background-color: #af1d1d;
+    -webkit-transition: font-size 1s ease;
+    transition: font-size 1s ease;
+    border-radius: 4px 4px 4px 4px;
+    color: black;
+    margin: 15px
+}
+
+.tercero:hover{
+    font-size: 35px;
+    border-radius: 4px 4px 4px 4px;
+    color: black;
+}
+
+.cuarto{
+    background-color: #af1d1d;
+    -webkit-transition: font-size 1s ease;
+    transition: font-size 1s ease;
+    border-radius: 4px 4px 4px 4px;
+    color: black;
+    margin: 15px
+}
+
+.cuarto:hover{
+    font-size: 35px;
+    border-radius: 4px 4px 4px 4px;
+    color: black;
+}
+
+.quinto{
+    background-color: #af1d1d;
+    -webkit-transition: font-size 1s ease;
+    transition: font-size 1s ease;
+    border-radius: 4px 4px 4px 4px;
+    color: black;
+    margin: 15px
+}
+
+.quinto:hover{
+    font-size: 35px;
+    border-radius: 4px 4px 4px 4px;
+    color: black;
+}
+.sexto{
+    background-color: #af1d1d;
+    -webkit-transition: font-size 1s ease;
+    transition: font-size 1s ease;
+    border-radius: 4px 4px 4px 4px;
+    color: black;
+    margin: 15px
+}
+
+.sexto:hover{
+    font-size: 35px;
+    border-radius: 4px 4px 4px 4px;
+    color: black;
+}
+    
+
+.contenedor_principal{
+    background-color: black;
+}
+
+.titulo_de_peliculas{
+    color: white;
+    text-align:center;
+    font-size: 120px;
+    padding-left: 30px;
+    text-decoration:underline;
+    padding: 60px;
+    text-shadow: 3px 3px 2px rgba(152, 150, 207, 0.7);
+    
+}
+
+.subtitulos{
+    text-align: start;
+    padding-left:30px ;
+    margin: 30px;
+    color: white;
+}
+
+.textos{
+    padding-left: 10px;
+    color: white;
+    letter-spacing: 1px;
+}
+
+.videos{
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: 350px;
+}
+
+.titulo_trailer{
+    text-align: center;
+    color: aliceblue;
+    padding-right: 90px;
+    border-color: beige;
+    margin: 30px;
+}
+
+hr{
+    width: 90%; 
+    box-shadow: 0 0 10px 5px rgb(221, 19, 19); 
+    margin: 50px auto; 
+    border-color: transparent;
+}
+
+#btn-fixed {
+	display: block;
+	position: fixed;
+    bottom: 10px;
+	right: 10px;
+}
